@@ -7,8 +7,8 @@
 -	Avoid shaming or bashing any particular technology choice.
 -	Encourage productive and respectful debate and disagreement.
 -	Take action when the code of conduct or anti-harassment policies are broken:
-  - Talk privately with the person.
-  - Contact any one of the organizers about concerns.
+    - Talk privately with the person.
+    - Contact any one of the organizers about concerns.
 
 # Anti-harassment policy:
 The Electrochemical Society (ECS) Data Science Hack Week is dedicated to providing a harassment-free learning experience for everyone regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age or religion. We do not tolerate harassment of participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks. Hack Week participants violating these rules may be sanctioned or expelled from the Hack Week without a refund at the discretion of the organizers.
