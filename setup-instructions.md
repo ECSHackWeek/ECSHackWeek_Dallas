@@ -11,19 +11,17 @@ Bash and git are part of Linux and Mac OSX. Windows users should install gitbash
 
 ### Python
 
-If you do not already have Python 3 installed on your computer (or even if you do, but don't use Conda), we recommend using installing miniconda.
+If you do not already have Python 3 installed on your computer (or even if you do, but don't use Conda), we recommend installing miniconda.
 Installation instructions for your OS can be found at https://conda.io/miniconda.html. 
-After you have installed conda, run the following to install Jupyter notebooks:
+After you have installed conda, run the following to install Jupyter lab:
 
 1. Update conda’s listing of packages for your system: `conda update conda`
-2. Install Jupyter notebook and its requirements: `conda install notebook`
+2. Install Jupyter lab and its requirements: `conda install jupyterlab`
 
 ### Github account
 
-Create an account at https://github.com/. A basic account is free (if you use your .edu email account, you can create 5 private repositories).
+Create an account at https://github.com/. A basic account is free and allows you to have unlimited public and private repositories.
 
 ### (Optional) Text editor 
 
 A text editor like [Notepad++](https://notepad-plus-plus.org/) or [Atom](https://atom.io/) are great tools for data science and hacking.
-
-    
