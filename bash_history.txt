@@ -1,0 +1,179 @@
+  330  ls Downloads/
+  331  mkdir newfolder
+  332  pwd
+  333  cd newfolder/
+  334  pwd
+  335  cd /Users/dacb/Documents/Letter\ of\ Recommendation/
+  336  pwd
+  337  cd ~
+  338  pwd
+  339  cd newfolder/
+  340  ls
+  341  ls -la
+  342  ls -la .
+  343  ls -la ..
+  344  cd ..
+  345  ls -la
+  346  ls -la
+  347  cd newfolder
+  348  ls -la ..
+  349  ls -la ../../..
+  350  ls -la /
+  351  cd ..
+  352  cd newfolder/
+  353  ls ..
+  354  cd ..
+  355  cd newfolder/
+  356  ls
+  357  touch myfile
+  358  ls 
+  359  ls -l
+  360  cp myfile newfile
+  361  ls -l
+  362  mv newfile mvedfile
+  363  ls -l
+  364  rm myfile
+  365  mv --help
+  366  ls
+  367  nano mvedfile 
+  368  cat mvedfile 
+  369  ls ../Downloads/*.csv
+  370  cat ../Downloads/100mV.csv
+  371  cat ../Downloads/100mV.csv
+  372  more ../Downloads/100mV.csv
+  373  less ../Downloads/100mV.csv
+  374  ls
+  375  cd ../
+  376  rmdir newfolder/
+  377  cd newfolder/
+  378  rm *
+  379  cd ..
+  380  rmdir newfolder/
+  381  mkdir RDE
+  382  cd RDE
+  383  cat ../*.zip
+  384  echo "I like pie"
+  385  echo "You are cool"
+  386  echo "README for RDE data"
+  387  ls
+  388  echo "README for RDE data" > README.txt
+  389  ls
+  390  cat README.txt 
+  391  echo "Dave says hi" > README.txt 
+  392  cat README.txt 
+  393  echo "Dave says hi" >> README.txt 
+  394  cat README.txt 
+  395  cat < README.txt 
+  396  cat
+  397  cat < README.txt 
+  398  cat < README.txt > foo.txt
+  399  rm foo.txt
+  400  history
+  401  echo "README for RDE data" > README.txt
+  402  ls
+  403  curl https://osf.io/q28tg/download
+  404  curl http://www.google.com
+  405  curl https://osf.io/q28tg/download
+  406  curl "https://files.osf.io/v1/resources/qrhcw/providers/osfstorage/59ceb2079ad5a102cd5c41bb?action=download&amp;version=1&amp;direct"
+  407  curl --help
+  408  curl "https://files.osf.io/v1/resources/qrhcw/providers/osfstorage/59ceb2079ad5a102cd5c41bb?action=download&amp;version=1&amp;direct" > rde.csv
+  409  ls -l
+  410  curl "https://files.osf.io/v1/resources/qrhcw/providers/osfstorage/59ceb2079ad5a102cd5c41bb?action=download&amp;version=1&amp;direct" -o rde2.csv
+  411  ls -l
+  412  head rde.csv
+  413  head rde2.csv
+  414  ls
+  415  rm *
+  416  cd ..
+  417  rmdir RDE
+  418  nano setup.sh
+  419  bash setup.sh
+  420  nano setup.sh 
+  421  bash setup.sh
+  422  ls -l RDE
+  423  cd RDE
+  424  cat README.txt 
+  425  bash ../setup.sh
+  426  ls
+  427  cd ../
+  428  tree RDE/
+  429  bash setup.sh
+  430  ls
+  431  tree RDE
+  432  \rm -rf RDE
+  433  cd Desktop/
+  434  source ../setup.sh 
+  435  ls
+  436  git config --global user.name "Dave Beck"
+  437  git config --global user.email "dacb@uw.edu"
+  438  git config --global core.editor "nano -w"
+  439  git config --list
+  440  ls -la
+  441  git init
+  442  ls -la
+  443  ls .git
+  444  ls -la
+  445  git add README.txt 
+  446  git commit
+  447  git status
+  448  git add rde.csv 
+  449  git commit
+  450  git status
+  451  nano README.txt 
+  452  git status
+  453  git add README.txt 
+  454  git commit -m "added year data to README"
+  455  git status
+  456  cat README.txt 
+  457  git log
+  458  rm README.txt 
+  459  rm README.txt 
+  460  ls
+  461  git checkout README.txt
+  462  ls -la
+  463  cat README.txt 
+  464  git diff README.txt HEAD~1
+  465  git diff HEAD~1 README.txt 
+  466  git diff HEAD~2 README.txt 
+  467  git diff HEAD~3 README.txt 
+  468  git log
+  469  git diff 3c7d982f81f27 README.txt 
+  470  git log --help
+  471  git --full-history
+  472  git log --full-history
+  473  git checkout HEAD~2 README.txt 
+  474  more README.txt 
+  475  git checkout HEAD README.txt 
+  476  more README.txt 
+  477  cat /dev/random >> random.dat
+  478  git status
+  479  nano .gitignore
+  480  git status
+  481  git add .gitignore 
+  482  git commit -m "added .dat files to gitignore"
+  483  git status
+  484  git remote add origin git@github.com:dacb/RDE_2019.git
+  485  git push -u origin master
+  486  nano 
+  487  nano README.txt 
+  488  git add README.txt 
+  489  git commit -m "added thank you"
+  490  git push
+  491  cd ..
+  492  git clone https://github.com/dacb/RDE_2019.git
+  493  cd RDE_2019/
+  494  ls
+  495  more README.txt 
+  496  git diff HEAD~2 README.txt 
+  497  cd ..
+  498  cd RDE
+  499  cp ../RDE_2019/README.txt .
+  500  more README.txt 
+  501  waffle
+  502  history
+  503  cd tmp
+  504  git clone git@github.com:ECSHackWeek/ECSHackWeek_Dallas.git
+  505  cd ECSHackWeek_Dallas/
+  506  l
+  507  cp ~/setup.sh rde_setup.sh
+  508  history > bash_history.txt
